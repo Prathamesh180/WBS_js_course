@@ -1,5 +1,7 @@
-// Data attr r used to store data in elements to use in JS.
-// Allow us to change things with css
+/*      IMPORTANT 
+ Data attributes are used to store data in elements(html) to use in JS.
+ Allow us to change things with CSS.
+*/
 
 const btn = document.querySelector("[data-test]")
 btn.addEventListener("click", e => {
@@ -7,7 +9,7 @@ btn.addEventListener("click", e => {
     console.log("clicked");
 })
 
-// Adds a new dataset to element
+// To add a new dataset to element :-
 // btn.dataset.name = 'hello';
 // console.log(btn.dataset);
 

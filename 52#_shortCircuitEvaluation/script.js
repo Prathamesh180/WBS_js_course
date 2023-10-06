@@ -1,11 +1,16 @@
 /* 
 1] OR (||) is used to get/give Default things.
 Here we are printing message 
-if no message present printing greetings
-if no greetings present printing default message.
+    Working :- 
+    1)if no message present printing greetings
+    2)if no greetings present printing default message.
+    *Without shortCircuiting we need to use if,
+    Which is more complex and big in size. 
 
-Without shortCircuiting we need to use if,
-But it is more complex and big in size. 
+2]AND [&&] is used for (1)Checking that all conditions are true & and (2)accessing these values only if all are true.
+    Working :- 
+    1)Gives ans only if all things are present else false.
+
 */
 
 const inbox = {

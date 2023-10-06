@@ -1,3 +1,17 @@
+/*          IMPORTANT
+
+#**#Super IMP :- 
+            querySelectorAll - doesn't return array.
+            So need to use Array.from(QSAll) to get array.
+
+    1)closest("identifier") - Finds the closest elmt matching identifier.
+    2).nextElementSibling - Finds same lvl of element with same type(div, li, etc)
+    3).nextElement - Any next element
+    4).parentElement - Gives parent element.
+    5).children OR children[0] - Gives first child element.
+*/
+
+
 const grandParent = document.querySelector('#grand-parent')
 grandParent.style.color = "red";
 

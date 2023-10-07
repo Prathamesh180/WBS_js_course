@@ -1,3 +1,7 @@
+// Whatever is there in resolve, reject comes in .then and .catch respectively.
+// Next level things(members of obj etc) of resolve and reject will come in subsequent then and catches ex:- .then().then() etc.
+
+
 /*
 let button = document.querySelector("button")
 
